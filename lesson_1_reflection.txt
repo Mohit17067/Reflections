@@ -1,0 +1,19 @@
+How did viewing a diff between two versions of a file help you 
+see the bug that was introduced?
+
+It directly showed me the comparisions between the files 
+
+
+
+How could having easy access to the entire history of a file 
+make you a more efficient programmer in the long term?
+
+So we can always relate our code with the previous versions and always look for any bugs in the new version. This will make our live easier as we do not need to dig our minds for hours looking for any bugs or remembering our old version.
+
+How can you use git log and git diff to view the history of files?
+
+Git log can be directly used to git the ids of different commits along with the commit message. Then we can use git diff id1 id2(id1 should be the older one and id2 should be the newer one) to compare the changes between different commits. Remember commit are arranged from newer to older ones.
+
+How might using version control make you more confident to make changes that could break something?
+
+As we can easily go to our previous version using git checkout  <id of previous versions>, so we can do as many experiments with our code as we want. Also there is a way to return back to our new version which i will learn in some time.
