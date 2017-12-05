@@ -11,4 +11,7 @@ What is the benefit of having a copy of the last known state of the remote store
 It will help us to know that how many commits are we ahead of the remote repository and then we can push them when we need to make them public. So if there is one more contributor in our project who contributed to our repo at github we can fetch his work and compare it with ours and later merge them together if required.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
-If there were no git or github, I would have collaborated via mails or other connecting stuff. Its very good that we ahve git or github so that now we can easily see each other work
+If there were no git or github, I would have collaborated via mails or other connecting stuff. Its very good that we ahve git or github so that now we can easily see each other work.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When we want to experiment on some stuff but we do not to want to disturb our master branch, we can create a separate branch and do experiments there and later merge with our master branch if we need.
