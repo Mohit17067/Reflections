@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+When we are going to put our work on github we need to remote repository using
+'git remote add <repo name on github> <url of github page>'. Then use 'git push <repo name> <master>' 
+to push it to github.
