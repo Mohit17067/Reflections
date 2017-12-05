@@ -3,3 +3,6 @@ When we are going to put our work on github we need to remote repository using '
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 We are not sure at a time that we want to make our work public or do we need to do some edits before we make it public on github. So there is a option to push it manually.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+You can make copies of other repositories directly from their github account to your github account using a github feature called fork. When you click on it you will get a copy of that repository in your github account. You can then use the clone feature to get it to your local machine. I don't think branches are related to clone or fork in any way. One more thing when you fork a repo git automatically created a remote for you namely 'origin', so you can directly push your changes to github using 'git push origin master'.
