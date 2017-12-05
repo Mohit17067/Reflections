@@ -9,3 +9,6 @@ You can make copies of other repositories directly from their github account to 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 It will help us to know that how many commits are we ahead of the remote repository and then we can push them when we need to make them public. So if there is one more contributor in our project who contributed to our repo at github we can fetch his work and compare it with ours and later merge them together if required.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+If there were no git or github, I would have collaborated via mails or other connecting stuff. Its very good that we ahve git or github so that now we can easily see each other work
