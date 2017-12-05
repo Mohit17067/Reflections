@@ -1,4 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
-When we are going to put our work on github we need to remote repository using
-'git remote add <repo name on github> <url of github page>'. Then use 'git push <repo name> <master>' 
-to push it to github.
+When we are going to put our work on github we need to remote repository using 'git remote add <repo name on github> <url of github page>'. Then use 'git push <repo name> <master>' to push it to github.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+We are not sure at a time that we want to make our work public or do we need to do some edits before we make it public on github. So there is a option to push it manually.

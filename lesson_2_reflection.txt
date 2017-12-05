@@ -1,0 +1,21 @@
+What happens when you initialize a repository? Why do you need to do it?
+To initialize a repo use 'git init'. By this a new git repository is created.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is an intermidiate situation between working directory and commited files. At this stage our file/s is ready to commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Suppose we have two files and we need to commit both but we have different logics for both commits. This is where staging area is used when we have multiple files to commit with some having different logic. We will add those files to the staging area which we want to commit with a single logic(message)
+by using git 'add <file name>'. This will put those files in the staging area and from there we can commit them by using 'git commit -m "message associated with that commit"'.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+You can have branches in any code when you think that at this time you need to keep this code also and move further in this code and create a new branch also so that you can experiment also. When you create a new repo using git init git itself creates a branch for you called 'master' branch when you checkout to a previous version you are in a 'detached head' state. So basically you are in master branch or in detached head state. You can create a new branch anytime using 'git branch <branch name>'. You can check you current branch by using git branch and you can switch between branches using 'git checkout <branch name>'.
+
+How do the diagrams help you visualize the branch structure?
+A pictorial representation is always hepful for visualisng things and making good concepts. By diagrams we can easily visualize the entire stuff and it will be in our mind for a longer time or may be forever.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+We can merge two branches using 'git merge <branch1> <branch2>'. Suppose we have two branches coins and master and we want to merge coins with master. First we should be in the master branch. You can do this using 'git checkout master' Then type 'git merge master coins(any order)'. Both these bracnches will be merged and the new commits will be added.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+I think git maanges the concept of merging very well when there in a confusion process is stopeed and a merge conflict is raised and then we manually resolve conflict by changing in the file then adding and commiting that file.
